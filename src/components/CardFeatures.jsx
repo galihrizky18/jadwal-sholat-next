@@ -10,7 +10,7 @@ const CardFeatures = () => {
       {/* Jadwal SHolat */}
       <Link href={"/jadwal-sholat"}>
         <div
-          className="item py-2 px-3 w-22 shadow-xl bg-white rounded-lg grid cursor-pointer"
+          className="item py-2 px-3 w-22 h-full shadow-xl bg-white rounded-lg grid cursor-pointer"
           style={{ gridTemplateRows: "2fr 1fr" }}
         >
           <div className="gambar flex justify-center items-center">
@@ -25,7 +25,7 @@ const CardFeatures = () => {
       {/* Doa */}
       <Link href={"/doa"}>
         <div
-          className="item py-2 px-3 w-22 shadow-xl bg-white rounded-lg grid cursor-pointer"
+          className="item py-2 px-3 w-22 h-full shadow-xl bg-white rounded-lg grid cursor-pointer"
           style={{ gridTemplateRows: "2fr 1fr" }}
         >
           <div className="gambar flex justify-center items-center">

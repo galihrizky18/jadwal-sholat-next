@@ -7,9 +7,11 @@ const navbar = () => {
   return (
     <div className="px-10 py-3 flex flex-row justify-between border-b border-black bg-white w-full">
       <div className="logo">
-        <span className="text-2xl font-lora font-bold">
-          Garix Jadwal Sholat
-        </span>
+        <Link href={"/"}>
+          <span className="text-2xl font-lora font-bold cursor-pointer">
+            Garix Jadwal Sholat
+          </span>
+        </Link>
       </div>
       <div className="menu">
         <ul className="flex flex-row gap-10 font-libre">
