@@ -19,11 +19,11 @@ const home = () => {
         <CardFeatures />
       </div>
 
-      <div className="caption-doa h-[500px] bg-gray-100 pt-20 pb-5 px-10 border border-black">
+      <div className="caption-doa bg-gray-100 pt-20 pb-5 px-5 ">
         <DoaSection />
       </div>
 
-      <div className="body h-[1000px]">asdasdasd</div>
+      <div className="body h-[500px]">asdasdasd</div>
     </div>
   );
 };
